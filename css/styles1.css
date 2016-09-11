@@ -114,6 +114,8 @@ li.header {
     font-size: 24px;
     text-decoration: none;
     color: #000; }
+  li.header a:hover {
+    border-bottom: 1px solid black; }
 
 .slider {
   height: 540px;
@@ -470,8 +472,43 @@ ul.footer {
     padding-left: 14px;
     border-right: 1px solid #fff; }
 
+.contact {
+  margin: auto;
+  display: block;
+  background: #fff;
+  width: 320px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .contact h1 {
+    text-align: center; }
+  .contact label {
+    display: block;
+    margin-left: 60px; }
+  .contact input {
+    width: 200px;
+    display: block;
+    margin: auto; }
+  .contact button {
+    color: #fff;
+    background: #ee3326;
+    width: 50px;
+    border: none;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    font-size: 18px;
+    width: 120px;
+    border-radius: 5px; }
+  .contact select {
+    width: 200px;
+    display: block;
+    margin: auto; }
+
 .ng-invalid {
-  background: red; }
+  border: 2px solid red; }
 
 @media only screen and (max-width: 768px) {
   nav {

@@ -15,7 +15,7 @@ var HeaderComponent = (function () {
     HeaderComponent.prototype.ngOnInit = function () { };
     HeaderComponent = __decorate([
         core_1.Component({
-            selector: 'mye-header',
+            selector: 'my-header',
             templateUrl: './app/header.component.html',
             styles: ["\n\t\tnav ul li {\n\t\t\tdisplay: inline-block;\n\t\t}\n\t"]
         }), 

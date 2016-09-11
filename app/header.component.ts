@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-	selector: 'mye-header',
+	selector: 'my-header',
 	templateUrl: './app/header.component.html',
 	styles: [`
 		nav ul li {

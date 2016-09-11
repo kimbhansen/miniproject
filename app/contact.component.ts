@@ -11,7 +11,8 @@ class Contact {
 	templateUrl: './app/contact.component.html'
 })
 export class ContactComponent {
-	brands = ["Nike", "addias", "H2O"];
+	brands = ["adidas", "nike","camper","superga","tımberland","new balance","converse","converse","puma","kinetix","tiger","lacoste","reebok","cat","dockers"];
+
 
 	model: Contact = new Contact();
 

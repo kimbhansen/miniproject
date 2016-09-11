@@ -16,7 +16,7 @@ var Contact = (function () {
 }());
 var ContactComponent = (function () {
     function ContactComponent() {
-        this.brands = ["Nike", "addias", "H2O"];
+        this.brands = ["adidas", "nike", "camper", "superga", "tımberland", "new balance", "converse", "converse", "puma", "kinetix", "tiger", "lacoste", "reebok", "cat", "dockers"];
         this.model = new Contact();
         this.submitted = false;
     }
