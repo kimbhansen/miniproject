@@ -1,0 +1,145 @@
+<div class="container">
+	<div class="row filter">
+		
+
+		<div class="col-md-3 brands" >
+			<h3>brands</h3>
+			<li>adidas</li>
+			<li>nike</li>
+			<li>camper</li> 
+			<li>superga</li>
+			<li>tımberland</li>
+			<li>new balance</li>
+			<li>converse</li>
+			<li>puma</li>	
+			<li>kinetix</li> 
+			<li>tiger</li> 
+			<li>lacoste</li> 
+			<li>reebok</li> 
+			<li>cat</li> 
+			<li>dockers</li>
+		</div>
+		
+			
+			<div class="col-md-2 divsize ">
+				<h2>women</h2>
+				<img class="img-circle imagesize  " src="../img/women.jpg" alt="">
+				<p>total <br>	
+				357 products</p>
+				<i class="fa fa-align-justify" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-2 divsize ">
+				<h2>man</h2>
+				<img class="img-circle imagesize " src="../img/man.jpg" alt="">
+				<p>total <br>
+				357 products</p>
+				<i class="fa fa-align-justify" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-2  divsize ">
+				<h2>kids</h2>
+				<img class="img-circle imagesize " src="../img/kids.jpg" alt="">
+				<p>total <br>
+				357 products</p>
+				<i class="fa fa-align-justify" aria-hidden="true"></i>
+			</div>
+		
+		
+		<div class="col-md-3 smallfilter">
+			select color <br>	
+			<div class="color1"></div>
+			<div class="color2"></div>
+			<div class="color3"></div>
+			<div class="color4"></div>
+			<div class="color5"></div>
+			<div class="color6"></div>
+			<div class="color7"></div>
+			<div class="color8"></div>
+			<div class="color9"></div>
+			<div class="color10"></div><br>
+			<div class="color11"></div>
+			<div class="color12"></div>
+			<div class="color13"></div>
+			<div class="color14"></div>
+			<div class="color15"></div>
+			<div class="color16"></div>
+			<div class="color17"></div>
+			<div class="color18"></div>
+			<div class="color19"></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-6 leftshoe">
+			<div *ngIf="shoe">
+				<h2>{{shoe.name}}</h2>
+				<img src="../img/{{shoe.image}}" alt="">
+			</div>
+		</div>
+		
+
+		<div class="col-md-6 shoeprice">
+			
+
+			<p class="price">{{shoe.price}}$</p>
+			<hr>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, vitae sunt sint tempora architecto! Unde repellat rem ipsa, </p>
+
+			
+			<p class="ship">Free shipping</p><br><br><br>
+
+			<form action="">
+			<select class="qty">
+  				<option value="1">1</option>
+  				<option value="2">2</option>
+  				<option value="3">3</option>
+  				<option value="4">4	</option>
+			</select>
+			<select class="select">
+  				<option value="select size">select size</option>
+  				<option value="saab">Saab</option>
+  				<option value="mercedes">Mercedes</option>
+  				<option value="audi">Audi</option>
+			</select>
+			
+
+			<button class="add">add to cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+			</form>
+			
+		</div>
+
+
+
+</div>
+<div class="row">
+	<div class="col-md-6 tabtitle">
+	<p>product overwıev</p><p>features</p><p>customer review</p>
+	</div>
+	<div class="col-md-6">
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 tabber">
+	<h2>Description</h2>
+	<p>{{shoe.description}}</p>
+	<h2>Detail</h2>
+	<p>{{shoe.detail}}</p>
+	</div>
+	
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,496 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 960px) {
+  .container {
+    width: 960px; }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    margin-right: 5px; }
+  .col-md-12 {
+    width: 99%;
+    margin-left: 5px; }
+  .col-md-11 {
+    width: 90.626%;
+    margin-left: 5px; }
+  .col-md-10 {
+    width: 82.293%;
+    margin-left: 5px; }
+  .col-md-9 {
+    width: 73.959%;
+    margin-left: 5px; }
+  .col-md-8 {
+    width: 65.625%;
+    margin-left: 5px; }
+  .col-md-7 {
+    width: 57.293%;
+    margin-left: 5px; }
+  .col-md-6 {
+    width: 48.959%;
+    margin-left: 5px; }
+  .col-md-5 {
+    width: 40.626%;
+    margin-left: 5px; }
+  .col-md-4 {
+    width: 32.292%;
+    margin-left: 5px; }
+  .col-md-3 {
+    width: 23.959%;
+    margin-left: 5px; }
+  .col-md-2 {
+    width: 15.625%;
+    margin-left: 5px; }
+  .col-md-1 {
+    width: 7.292%;
+    margin-left: 5px; } }
+
+body {
+  background: #f2f2f2;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+img.header {
+  padding-top: 55px;
+  padding-bottom: 35px; }
+
+div.phone {
+  width: 330px;
+  float: right;
+  margin-bottom: 30px; }
+
+div.login {
+  width: 330px;
+  height: 55px;
+  background: #fff;
+  border-top: 30px;
+  float: right;
+  border-radius: 5px; }
+  div.login a.logi {
+    color: #000;
+    width: 82px;
+    float: left;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    border-left: 1px solid gray; }
+  div.login a.reg {
+    color: #fff;
+    padding: 5px 35px 5px 35px;
+    border-radius: 5px;
+    float: left;
+    background: #ee3326;
+    margin-top: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px; }
+
+i.fa-shopping-cart {
+  text-align: center;
+  width: 82px;
+  margin-top: 15px;
+  float: left; }
+
+p.help {
+  font-size: 14px;
+  display: inline;
+  margin-bottom: 20px; }
+
+nav {
+  height: 75px;
+  background: #fff;
+  z-index: 1;
+  clear: both; }
+  nav input {
+    margin-top: 25px; }
+
+li.header {
+  display: inline;
+  text-transform: uppercase;
+  margin-top: 20px; }
+  li.header a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000; }
+
+.slider {
+  height: 540px;
+  background: #9ccd8d;
+  clear: both;
+  z-index: -1;
+  position: relative;
+  top: -37px; }
+  .slider img {
+    margin-top: 24px; }
+
+.category {
+  height: 345px;
+  background: #fff; }
+  .category h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 20px; }
+  .category p {
+    text-align: center; }
+  .category i {
+    text-align: center; }
+
+.img-circle {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+i.fa-align-justify {
+  color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.fafooter {
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 7px; }
+
+td {
+  text-align: center; }
+
+.special {
+  height: 330px;
+  width: 228px;
+  background: #fff;
+  border-radius: 5px; }
+  .special img.shoe {
+    width: 100%;
+    height: 150px; }
+
+.special:hover {
+  border: 1px solid #fe1313;
+  height: 328px;
+  width: 226px; }
+
+.special2 {
+  height: 330px;
+  width: 228px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+.special2:hover {
+  border: 1px solid #fe1313;
+  height: 328px;
+  width: 226px; }
+
+li.footer:last-of-type {
+  border: none;
+  padding-right: 0px; }
+
+.fa-pinterest-square {
+  margin-left: 45px; }
+
+.smallfilter {
+  margin-top: 30p; }
+
+.brands {
+  height: 235px;
+  webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  margin-top: 30px; }
+  .brands li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+
+.smallcategory {
+  height: 235px; }
+
+.filter {
+  height: 235px;
+  background: #fff;
+  clear: both;
+  position: relative;
+  top: 45px; }
+
+.color1 {
+  width: 20px;
+  height: 20px;
+  background: #e82026;
+  float: left; }
+
+.color2 {
+  width: 20px;
+  height: 20px;
+  background: #f9a058;
+  float: left; }
+
+.color3 {
+  width: 20px;
+  height: 20px;
+  background: #58a8f9;
+  float: left; }
+
+.color4 {
+  width: 20px;
+  height: 20px;
+  background: #dbe47b;
+  float: left; }
+
+.color5 {
+  width: 20px;
+  height: 20px;
+  background: #610b0e;
+  float: left; }
+
+.color6 {
+  width: 20px;
+  height: 20px;
+  background: #781c70;
+  float: left; }
+
+.color7 {
+  width: 20px;
+  height: 20px;
+  background: #1b334c;
+  float: left; }
+
+.color8 {
+  width: 20px;
+  height: 20px;
+  background: #517737;
+  float: left; }
+
+.color9 {
+  width: 20px;
+  height: 20px;
+  background: #7520e8;
+  float: left; }
+
+.color10 {
+  width: 20px;
+  height: 20px;
+  background: #4c3d31;
+  float: left; }
+
+.color11 {
+  width: 20px;
+  height: 20px;
+  background: #060606;
+  float: left; }
+
+.color12 {
+  width: 20px;
+  height: 20px;
+  background: #1a6a0b;
+  float: left; }
+
+.color13 {
+  width: 20px;
+  height: 20px;
+  background: #a0629f;
+  float: left; }
+
+.color14 {
+  width: 20px;
+  height: 20px;
+  background: #074a74;
+  float: left; }
+
+.color15 {
+  width: 20px;
+  height: 20px;
+  background: #beadad;
+  float: left; }
+
+.color16 {
+  width: 20px;
+  height: 20px;
+  background: #f65812;
+  float: left; }
+
+.color17 {
+  width: 20px;
+  height: 20px;
+  background: #c4da0f;
+  float: left; }
+
+.color18 {
+  width: 20px;
+  height: 20px;
+  background: #377377;
+  float: left; }
+
+.color19 {
+  width: 20px;
+  height: 20px;
+  background: #bd8b7a;
+  float: left; }
+
+div.leftshoe {
+  clear: left;
+  height: 600px; }
+  div.leftshoe img {
+    width: 100%; }
+
+.shoeprice {
+  clear: right;
+  height: 600px; }
+  .shoeprice p.price {
+    font-size: 62px;
+    background: #fff;
+    width: 320px;
+    height: 70px;
+    margin-left: 45px;
+    text-align: center;
+    padding-top: -10;
+    clear: both; }
+  .shoeprice p.text {
+    margin-left: 45px; }
+  .shoeprice .ship {
+    float: right; }
+  .shoeprice .add {
+    width: 200px;
+    height: 45px;
+    background: #f03b33;
+    border-radius: 5px;
+    clear: both;
+    float: right;
+    font-size: 24px;
+    color: #fff; }
+  .shoeprice select {
+    background: #fff; }
+  .shoeprice .qty {
+    width: 50px;
+    height: 35px;
+    float: right;
+    margin-bottom: 15px; }
+  .shoeprice .select {
+    width: 135px;
+    height: 35px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px; }
+
+.tabtitle p {
+  display: inline;
+  padding: 15px;
+  background: #fff;
+  font-size: 18px; }
+
+.tabber {
+  background: #fff;
+  height: 300px;
+  margin-bottom: 30px; }
+  .tabber p {
+    padding-left: 15px; }
+  .tabber h2 {
+    padding-left: 14px; }
+
+li {
+  list-style-type: none; }
+
+.nike {
+  display: block;
+  margin: auto;
+  padding: auto;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+hr {
+  width: 80%; }
+
+p.redbutton {
+  background: red;
+  text-align: center;
+  width: 100px;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: auto;
+  border-radius: 20px;
+  font-size: 11px;
+  width: 80%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px; }
+
+a.redbutton2 {
+  color: #fff;
+  text-align: center;
+  border-left: 1px solid #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 20px; }
+
+.divsize h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 1px; }
+
+.divsize p {
+  text-align: center;
+  margin-bottom: 1px; }
+
+.divsize i {
+  text-align: center; }
+
+.imagesize {
+  width: 80%;
+  height: 40%; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+footer {
+  height: 145px;
+  background: #f2262c;
+  clear: both; }
+  footer img {
+    width: 100%;
+    margin-top: 55px; }
+
+ul.footer {
+  list-style-type: none;
+  margin-top: 60px;
+  margin-left: 8px;
+  font-size: 14px; }
+  ul.footer li.footer {
+    display: inline;
+    color: #fff;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-right: 1px solid #fff; }
+
+.ng-invalid {
+  background: red; }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: auto;
+    background: #fff;
+    clear: both; }
+  li.header a {
+    text-align: center; }
+  .slider {
+    display: none; }
+  footer {
+    height: auto;
+    margin-top: 40px; }
+  ul {
+    text-align: center; }
+  footer img {
+    width: 200px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 55px; } }

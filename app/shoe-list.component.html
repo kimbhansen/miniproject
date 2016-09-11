@@ -1,0 +1,14 @@
+	
+<li *ngFor="let shoe of shoes">
+	<div class="col-md-3 special">
+		<img class="nike" src="../img/nikelogo.png" alt="">
+		<img class="shoe" src="../img/{{shoe.image}}" alt="">
+		<hr>
+		<p>{{shoe.name}}</p>
+		<p class="redbutton">{{shoe.price}}$
+		<a class="redbutton2" [routerLink]="['/detail', shoe.id]">GET NOW</a></p>
+	</div>
+</li>
+		
+	
+
