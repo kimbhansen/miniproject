@@ -166,7 +166,8 @@ td {
   height: 330px;
   width: 228px;
   background: #fff;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-bottom: 30px; }
   .special img.shoe {
     width: 100%;
     height: 150px; }
@@ -196,7 +197,7 @@ li.footer:last-of-type {
   margin-left: 45px; }
 
 .smallfilter {
-  margin-top: 30p; }
+  margin-top: 30px; }
 
 .brands {
   height: 235px;
@@ -524,6 +525,47 @@ ul.footer {
     margin-top: 40px; }
   ul {
     text-align: center; }
+  .filter {
+    height: auto; }
+  .imagesize {
+    width: 200px; }
+  .smallfilter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 150px; }
+  div.leftshoe {
+    clear: both;
+    height: 300px;
+    margin-top: 200px; }
+    div.leftshoe img {
+      width: 300px;
+      margin: auto;
+      display: block; }
+  .shoeprice {
+    clear: right;
+    height: 500px; }
+    .shoeprice p.price {
+      font-size: 62px;
+      background: #fff;
+      width: 300px;
+      height: 70px;
+      text-align: center;
+      clear: both;
+      margin: auto;
+      display: block; }
+  .tabtitle p {
+    font-size: 14px; }
+  .tabber {
+    background: #fff;
+    height: auto;
+    margin-bottom: 30px; }
+    .tabber p {
+      padding-left: 15px;
+      font-size: 12px; }
+    .tabber h2 {
+      padding-left: 14px;
+      font-size: 14px; }
   footer img {
     width: 200px;
     margin-top: 55px;
